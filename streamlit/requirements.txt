@@ -1,0 +1,4 @@
+streamlit
+requests
+requests-toolbelt==0.9.1
+click==8
