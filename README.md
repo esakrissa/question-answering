@@ -33,4 +33,4 @@ https://huggingface.co/esakrissa/indobert-squad
 # Cara Penggunaan Aplikasi
 
 # Demo Aplikasi
-Untuk menjalankan aplikasi BERT-QATA2, silakan kunjungi http://34.128.73.228:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas Sistem Operasi Ubuntu 18.4. Meskipun belum menggunakan nama domain namun BERT-QATA2 sudah dapat melakukan task untuk question answering.
+Untuk menjalankan aplikasi BERT-QATA2, silakan kunjungi http://34.128.73.228:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas Sistem Operasi Ubuntu 18.4. Meskipun belum menggunakan nama domain namun BERT-QATA2 sudah dapat melakukan task question answering menggunakan Bahasa Indonesia.
