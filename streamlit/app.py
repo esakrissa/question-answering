@@ -12,7 +12,8 @@ st.beta_set_page_config(**PAGE_CONFIG)
 
 
 # interact with FastAPI endpoint
-backend = 'http://0.0.0.0:8008/qna'
+# backend = 'http://0.0.0.0:8008/qna'
+backend = 'http://fastapi:8008/qna/'
 
 
 def process(context: str, question: str, server_url: str):
