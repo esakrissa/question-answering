@@ -18,7 +18,7 @@ Model yang digunakan adalah BERT (Bidirectional Encoder Representations from Tra
   We trained the model for 2.4M steps (180 epochs) with the final perplexity over the development set being 3.97 (similar to English BERT-base)."
 
 # Dataset yang Digunakan: SQuAD Bahasa Indonesia 2.0
-Dataset yang digunakan adalah SQuAD versi Bahasa Indonesia yang didapatkan dari Github Wikidepia https://depia.wiki/files/squad/tar/. Dataset berupa "train-v2.0.json" dan "dev-v2.0.json" yang diupload pada Huggingface untuk memudahkan pembuatan model. Dataset yang digunakan untuk training atau fine-tuning model IndoBERT dapat dilihat pada link berikut https://huggingface.co/datasets/esakrissa/squad_id_v2.
+Dataset yang digunakan adalah SQuAD versi Bahasa Indonesia yang didapatkan dari Github Wikidepia https://depia.wiki/files/squad/tar/. Dataset berupa "train-v2.0.json" dan "dev-v2.0.json" diupload pada Huggingface untuk memudahkan pembuatan model. Dataset yang digunakan untuk training atau fine-tuning model IndoBERT dapat dilihat pada link berikut https://huggingface.co/datasets/esakrissa/squad_id_v2.
  
   "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia      articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
 
