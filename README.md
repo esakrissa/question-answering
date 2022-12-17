@@ -27,4 +27,10 @@ Aplikasi dibangun di atas docker container menggunakan docker compose dan terdir
 
 ![arsitektur_aplikasi](https://user-images.githubusercontent.com/37507654/208256250-90adc987-ee5b-4abb-a783-3817aaef27a2.png)
 
+# Training Model
+https://huggingface.co/esakrissa/indobert-squad
+
 # Cara Penggunaan Aplikasi
+
+# Demo Aplikasi
+BERT-QATA2
