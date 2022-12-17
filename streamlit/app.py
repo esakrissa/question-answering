@@ -2,6 +2,13 @@ import streamlit as st
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 import requests
 import logging
+from PIL import Image
+
+
+img = Image.open('img/qa_logo.png')
+
+PAGE_CONFIG = {"page_title":"QA", "page_icon":"img", "layout":"centered"}
+st.beta_set_page_config(**PAGE_CONFIG)
 
 
 # interact with FastAPI endpoint
@@ -21,10 +28,10 @@ def process(context: str, question: str, server_url: str):
     return r
 
 # construct UI layout
-st.title('Question Answering')
+st.title('IndoBERT Question Answering')
 
-st.write('''Question Answering.
-         Visit this URL at `:8008/docs` for FastAPI documentation.''')  # description and instructions
+st.write('''IndoBERT Question Answering oleh Kelompok 5. PBA (A).
+         \nKunjungi URL di `:8008/docs` untuk melihat dokumentasi FastAPI.''')  # description and instructions
 
 user_input_context = st.text_area("Context:")
 user_input_question = st.text_area("Question:")
