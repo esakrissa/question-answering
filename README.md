@@ -25,4 +25,6 @@ Dataset yang digunakan adalah SQuAD versi Bahasa Indonesia yang didapatkan dari 
 # Arsitektur Aplikasi
 Aplikasi dibangun di atas docker container menggunakan docker compose dan terdiri dari dua container yaitu frontend dan backend. Arsitektur backend menggunakan framework Python yaitu FastAPI. Sedangkan frontend menggunakan framework JavaScript, React.js dan framework Python, Streamlit. Nginx digunakan untuk konfigurasi port antar container yang akan memberikan output berupa IP yang dapat diakses untuk menjalankan aplikasi.
 
+![arsitektur](https://user-images.githubusercontent.com/37507654/208256155-9766996a-3f4f-4436-b6bf-ea6121fa3a1b.png)
+
 # Cara Penggunaan Aplikasi
