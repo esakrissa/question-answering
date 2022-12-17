@@ -34,7 +34,7 @@ def process(context: str, question: str, server_url: str):
 st.title('IndoBERT Question Answering')
 
 st.write('''IndoBERT Question Answering oleh Kelompok 5. PBA (A).
-         \nKunjungi URL di `:8008/docs` untuk melihat dokumentasi FastAPI.''')  # description and instructions
+         \nKunjungi URL di `:8008/docs` untuk melihat dokumentasi FastAPI.''')
 
 user_input_context = st.text_area("Konteks:", height=160)
 user_input_question = st.text_area("Pertanyaan:")
