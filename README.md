@@ -1,6 +1,6 @@
 # question-answering
 
-Projek UAS Kelompok 5 - Mata Kuliah PBA (A).
+Projek UAS Kelompok 5. Mata Kuliah PBA (A).
 
 # Deskripsi Aplikasi: BERT-QATA2
 BERT-QATA2 merupakan aplikasi question-answering yang menggunakan model Deep Learning atau Natural Language Processing untuk menjawab pertanyaan user berdasarkan konteks yang diinputkan. 
