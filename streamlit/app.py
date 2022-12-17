@@ -55,3 +55,6 @@ if st.button('Submit'):
     else:
         # handle case with no image
         st.write("Masukkan konteks dan pertanyaan!")
+
+# RUN COMMAND
+# streamlit run app.py
