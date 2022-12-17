@@ -7,8 +7,10 @@ from PIL import Image
 
 img = Image.open('img/qa_logo.png')
 
-PAGE_CONFIG = {"page_title":"QA", "page_icon":"img", "layout":"centered"}
-st.beta_set_page_config(**PAGE_CONFIG)
+st.beta_set_page_config(page_title='QA',page_icon=img, layout="centered")
+
+# PAGE_CONFIG = {"page_title":"QA", "page_icon":"img", "layout":"centered"}
+# st.beta_set_page_config(**PAGE_CONFIG)
 
 
 # interact with FastAPI endpoint
