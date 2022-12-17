@@ -33,8 +33,8 @@ st.title('IndoBERT Question Answering')
 st.write('''IndoBERT Question Answering oleh Kelompok 5. PBA (A).
          \nKunjungi URL di `:8008/docs` untuk melihat dokumentasi FastAPI.''')  # description and instructions
 
-user_input_context = st.text_area("Context:")
-user_input_question = st.text_area("Question:")
+user_input_context = st.text_area("Konteks:")
+user_input_question = st.text_area("Pertanyaan:")
 
 if st.button('Submit'):
 
@@ -45,12 +45,12 @@ if st.button('Submit'):
 
     elif user_input_context:
         # handle case with no image
-        st.write("Insert question!")
+        st.write("Masukkan pertanyaan!")
 
     elif user_input_context:
         # handle case with no image
-        st.write("Insert context!")
+        st.write("Masukkan konteks!")
 
     else:
         # handle case with no image
-        st.write("Insert context and question!")
+        st.write("Masukkan konteks dan pertanyaan!")
