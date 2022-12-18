@@ -20,13 +20,13 @@ We trained the model for 2.4M steps (180 epochs) with the final perplexity over 
 
 # Dataset yang Digunakan: SQuAD Bahasa Indonesia 2.0
 
-Dataset yang digunakan adalah SQuAD versi Bahasa Indonesia yang didapatkan dari Github Wikidepia https://depia.wiki/files/squad/tar/. Dataset berupa "train-v2.0.json" dan "dev-v2.0.json" diupload pada Huggingface untuk memudahkan pembuatan model. Dataset yang digunakan untuk training atau fine-tuning model IndoBERT dapat dilihat pada link berikut https://huggingface.co/datasets/esakrissa/squad_id_v2.
+Dataset yang digunakan adalah SQuAD versi Bahasa Indonesia yang didapatkan dari Github Wikidepia https://depia.wiki/files/squad/tar/. Dataset berupa "train-v2.0.json" dan "dev-v2.0.json" diupload pada Huggingface untuk memudahkan pembuatan model. Dataset yang digunakan untuk training atau fine-tuning model IndoBERT dapat dilihat pada tautan berikut https://huggingface.co/datasets/esakrissa/squad_id_v2.
 
 "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
 
 # Arsitektur Aplikasi
 
-Aplikasi dibangun di atas docker container menggunakan docker compose dan terdiri dari dua container yaitu frontend dan backend. Arsitektur backend menggunakan framework Python yaitu FastAPI. Sedangkan frontend menggunakan framework JavaScript, React.js dan framework Python, Streamlit. Nginx digunakan untuk konfigurasi port antar container yang akan memberikan output berupa IP yang dapat diakses untuk menjalankan aplikasi.
+Aplikasi BERT-QATA2 dibangun di atas docker container menggunakan docker compose yang terdiri dari dua container yaitu frontend dan backend. Arsitektur backend menggunakan framework Python yaitu FastAPI. Sedangkan frontend menggunakan framework JavaScript, React.js dan framework Python, Streamlit. Nginx digunakan untuk konfigurasi port antar container yang akan memberikan output berupa IP address yang dapat diakses untuk menjalankan aplikasi.
 
 ![arsitektur_aplikasi](https://user-images.githubusercontent.com/37507654/208256250-90adc987-ee5b-4abb-a783-3817aaef27a2.png)
 
@@ -41,4 +41,4 @@ User dapat menginputkan konteks pada kolom Konteks sebagai basis pengetahuan bag
 
 # Demo Aplikasi
 
-Untuk menjalankan aplikasi BERT-QATA2 dapat diakses melalui http://bert-qata2.xyz:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas sistem operasi Ubuntu 18.4. BERT-QATA2 dapat melakukan task question answering berdasarkan konteks yang diberikan oleh user menggunakan Bahasa Indonesia.
+Untuk menjalankan aplikasi BERT-QATA2 dapat diakses melalui http://bert-qata2.xyz:8501. Aplikasi dideploy pada Google Cloud Platform (GCP) di atas sistem operasi Ubuntu 18.4. BERT-QATA2 dapat melakukan task question answering berdasarkan konteks yang diberikan oleh user menggunakan Bahasa Indonesia.
