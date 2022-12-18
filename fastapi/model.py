@@ -7,8 +7,8 @@ __version__= "0.1.0"
 def get_model():
 
     qa = pipeline('question-answering', 
-              model="esakrissa/indobert-squad", 
-              tokenizer="esakrissa/indobert-squad")
+              model="esakrissa/IndoBERT-SQuAD", 
+              tokenizer="esakrissa/IndoBERT-SQuAD")
     return qa
 
 def get_result(qa, context, question, max_size=512):
