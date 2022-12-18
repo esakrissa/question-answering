@@ -32,12 +32,12 @@ Aplikasi dibangun di atas docker container menggunakan docker compose dan terdir
 
 # Training Model
 
-Hasil training, evaluasi, algoritma dan dataset yang digunakan terlampir pada repository HuggingFace berikut
+Proses training, dataset dan algoritma yang digunakan, serta hasil dan evaluasi model terlampir pada repository HuggingFace berikut
 https://huggingface.co/esakrissa/IndoBERT-SQuAD.
 
 # Cara Penggunaan Aplikasi
 
-User cukup menginputkan konteks pada kolom konteks. Konteks dapat berupa teks paragraf yang diketik sendiri atau didapat dari sumber lain seperti artikel atau Wikipedia. Lalu user menginputkan pertanyaan yang ingin ditanyakan sesuai dengan konteks yang diberikan. Klik Submit untuk melihat jawaban yang diberikan oleh model IndoBERT yang telah ditrain dengan dataset SQuAD v2 terjemahan Bahasa Indonesia.
+User cukup menginputkan konteks pada kolom Konteks. Konteks dapat berupa teks paragraf yang diketik sendiri atau didapat dari sumber lain seperti artikel atau Wikipedia. Lalu user menginputkan pertanyaan yang ingin ditanyakan pada kolom Pertanyaan sesuai dengan konteks yang diberikan. Klik Submit untuk melihat jawaban yang diberikan oleh model IndoBERT yang telah ditrain dengan dataset SQuAD 2.0 terjemahan Bahasa Indonesia.
 
 # Demo Aplikasi
 
