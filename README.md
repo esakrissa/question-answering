@@ -32,13 +32,13 @@ Aplikasi dibangun di atas docker container menggunakan docker compose dan terdir
 
 # Training Model
 
-Proses training, dataset dan algoritma yang digunakan, serta hasil dan evaluasi model terlampir pada repository HuggingFace berikut
+Proses training, dataset dan algoritma yang digunakan, serta hasil dan evaluasi model terlampir pada repository Hugging Face berikut
 https://huggingface.co/esakrissa/IndoBERT-SQuAD.
 
 # Cara Penggunaan Aplikasi
 
-User cukup menginputkan konteks pada kolom Konteks. Konteks dapat berupa teks paragraf yang diketik sendiri atau didapat dari sumber lain seperti artikel atau Wikipedia. Lalu user menginputkan pertanyaan yang ingin ditanyakan pada kolom Pertanyaan sesuai dengan konteks yang diberikan. Klik Submit untuk melihat jawaban yang diberikan oleh model IndoBERT yang telah ditrain dengan dataset SQuAD 2.0 terjemahan Bahasa Indonesia.
+User dapat menginputkan konteks pada kolom Konteks sebagai basis pengetahuan bagi model. Konteks dapat berupa teks paragraf yang diketik sendiri atau didapat dari sumber lain seperti artikel Wikipedia. Lalu user dapat menginputkan pertanyaan yang ingin ditanyakan pada kolom Pertanyaan sesuai dengan konteks yang diberikan. Klik Submit untuk melihat jawaban yang diberikan oleh model IndoBERT yang telah ditrain dengan dataset SQuAD 2.0 terjemahan Bahasa Indonesia.
 
 # Demo Aplikasi
 
-Untuk menjalankan aplikasi BERT-QATA2 silakan kunjungi http://bert-qata2.xyz:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas Sistem Operasi Ubuntu 18.4. BERT-QATA2 dapat melakukan task question answering berdasarkan konteks yang diberikan menggunakan Bahasa Indonesia.
+Untuk menjalankan aplikasi BERT-QATA2 dapat diakses melalui http://bert-qata2.xyz:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas sistem operasi Ubuntu 18.4. BERT-QATA2 dapat melakukan task question answering berdasarkan konteks yang diberikan oleh user menggunakan Bahasa Indonesia.
