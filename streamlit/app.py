@@ -47,7 +47,7 @@ if st.button('Submit'):
     if user_input_context and user_input_question:
         result = process(user_input_context, user_input_question, backend)
         res = result.content
-        st.write(f'Answer:    {res.decode("utf-8")}')
+        st.write(f'Jawaban:    {res.decode("utf-8")}')
 
     elif user_input_context:
         # handle case with no image
