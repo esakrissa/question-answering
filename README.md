@@ -32,7 +32,7 @@ Aplikasi dibangun di atas docker container menggunakan docker compose dan terdir
 
 # Training Model
 
-https://huggingface.co/esakrissa/indobert-squad
+https://huggingface.co/esakrissa/IndoBERT-SQuAD
 
 # Cara Penggunaan Aplikasi
 
