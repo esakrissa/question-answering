@@ -41,4 +41,4 @@ User cukup menginputkan konteks pada kolom konteks. Konteks dapat berupa teks pa
 
 # Demo Aplikasi
 
-Untuk menjalankan aplikasi BERT-QATA2 silakan kunjungi http://bert-qata2.xyz:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas Sistem Operasi Ubuntu 18.4. BERT-QATA2 sudah dapat melakukan task question answering berdasarkan konteks yang diberikan menggunakan Bahasa Indonesia.
+Untuk menjalankan aplikasi BERT-QATA2 silakan kunjungi http://bert-qata2.xyz:8501. Aplikasi telah dideploy pada Google Cloud Platform (GCP) di atas Sistem Operasi Ubuntu 18.4. BERT-QATA2 dapat melakukan task question answering berdasarkan konteks yang diberikan menggunakan Bahasa Indonesia.
