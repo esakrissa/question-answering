@@ -4,7 +4,7 @@ Projek UAS Kelompok 5. Mata Kuliah PBA (A).
 
 # Deskripsi Aplikasi: BERT-QATA2
 
-BERT-QATA2 merupakan aplikasi question-answering yang menggunakan model Deep Learning pada Natural Language Processing (NLP) untuk menjawab pertanyaan user berdasarkan konteks yang diberikan.
+BERT-QATA2 merupakan aplikasi question-answering menggunakan model Deep Learning pada Natural Language Processing (NLP) untuk menjawab pertanyaan user berdasarkan konteks yang diberikan.
 
 # Question Answering Menggunakan Model IndoBERT
 
